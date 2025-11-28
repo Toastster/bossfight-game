@@ -1,28 +1,41 @@
 body {
-    background: #222;
-    color: white;
-    text-align: center;
-    font-family: Arial, sans-serif;
-}
-
-#gameCanvas {
-    background: black;
-    border: 3px solid white;
-    display: none;
-    margin-top: 20px;
+  background: #111;
+  color: white;
+  text-align: center;
+  font-family: Arial, sans-serif;
 }
 
 #menu {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 button {
-    padding: 10px 20px;
-    margin: 5px;
-    font-size: 16px;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#gameCanvas {
+  display: none;
+  margin-top: 20px;
+  background: black;
+  border: 3px solid white;
 }
 
 #status {
-    margin-top: 20px;
-    font-size: 18px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+#touchControls {
+  display: none;
+  margin-top: 10px;
+}
+
+#touchControls button {
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  margin: 5px;
 }

@@ -2,20 +2,28 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>2D Bossfight Game</title>
+<title>Pixel Bossfight Game</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <div id="menu">
-    <h1>2D Bossfight Game</h1>
-    <p>Select a Boss:</p>
-    <button onclick="startGame(1)">🔥 Inferno Serpent</button>
-    <button onclick="startGame(2)">🌿 Forest Guardian</button>
-    <button onclick="startGame(3)">👁️ Void Eye</button>
+  <h1>Pixel Bossfight</h1>
+  <p>Select a boss to fight:</p>
+  <button onclick="startGame(1)">Toxic Rex</button>
+  <button onclick="startGame(2)">Storm Serpent</button>
+  <button onclick="startGame(3)">Forge Titan</button>
 </div>
 
 <canvas id="gameCanvas" width="900" height="500"></canvas>
+
+<div id="status"></div>
+
+<!-- Touch controls for mobile -->
+<div id="touchControls">
+  <button id="upBtn">▲</button>
+  <button id="downBtn">▼</button>
+  <button id="shootBtn">●</button>
+</div>
 
 <script src="script.js"></script>
 </body>
